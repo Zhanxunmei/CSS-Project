@@ -1,0 +1,40 @@
+html{
+    scroll-behavior: smooth;
+}
+h1{
+    color: rgb(70, 70, 173);
+}
+ul{
+    list-style-type: none;
+}
+a:hover{
+    color: rgb(184, 49, 49);
+}
+nav{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+nav ul {
+    display: flex;
+    gap: 1.5rem;
+}
+nav a:hover{
+    color: red;
+}
+.queen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+}
+
+
